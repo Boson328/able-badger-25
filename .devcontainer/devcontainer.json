@@ -28,5 +28,5 @@
 
   "remoteUser": "vscode",
 
-  "postCreateCommand": "deno cache main.ts"
+  "postCreateCommand": "/bin/sh .devcontainer/setup.sh"
 }
